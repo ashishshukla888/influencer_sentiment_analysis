@@ -87,3 +87,17 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Ignore virtual environments
+myenv/
+
+# Ignore temporary or generated files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.log
+*.swp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
